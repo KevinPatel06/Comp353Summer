@@ -1,0 +1,109 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body
+{
+    background-color: #dcf5f5;
+    font-family:Arial; 
+}
+
+table
+{
+    margin: 20px auto;
+    box-shadow: 4px 8px 16px #888888;
+    border-collapse: collapse;
+}
+
+table th
+{
+    background-color: #37c3c3;
+}
+
+table th, table td
+{
+    padding: 9px;
+    border: 0;
+    text-align: center;
+}
+
+table tr:nth-child(odd)
+{
+    background-color: rgb(202,226,226)
+}
+
+table tr:nth-child(even)
+{
+    background-color: rgb(220,245,245)
+}
+
+#tableContainer
+{
+    display: table;
+    border-radius: 3px;
+    background-color: #a0e4e4;
+    padding: 20px 30px 30px;
+    margin: 30px auto 30px;
+    font-weight: bold;
+}
+
+input[type=text], select
+{
+    width: 80%;
+    padding: 11px 15px;
+    margin: 8px auto 0;
+    display: block;
+    border: 2.5px solid #4ab0b0;
+    border-radius: 3px;
+}
+
+h4
+{
+    padding-left: 10%;
+}
+
+input[type=submit]
+{
+    background-color: #4ab0b0;
+    border: 4px solid #44a2a2;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    padding: 14px;
+    margin: 8px 0;
+}
+
+input[type=submit]:hover
+{
+    background-color: #70c3c3;
+    border-color: #62bdbd;
+}
+
+
+#subButtonContainer
+{
+    text-align: center;
+}
+
+div.formDiv
+{
+    width: 650px;
+    border-radius: 3px;
+    background-color: #a0e4e4;
+    padding: 20px 30px 30px;
+    margin: 30px auto 30px;
+    font-weight: bold;
+}
+
+h3.instruction
+{
+    padding-top: 20px; 
+}
+
+h2
+{
+    padding-top: 20px;
+    text-align: center;
+}
